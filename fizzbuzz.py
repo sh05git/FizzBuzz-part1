@@ -4,8 +4,10 @@ output = str(number)
 
 if number % 3 == 0:
     output = 'Fizz'
+elif number % 5 == 0:
+    output = 'Buzz'
+
 else:
     output = str(number)
 
 print(output)
-6
